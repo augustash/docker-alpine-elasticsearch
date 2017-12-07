@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+    s6-setuidgid ash \
+    /usr/share/elasticsearch/bin/elasticsearch "$@"
