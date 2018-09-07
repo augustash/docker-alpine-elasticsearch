@@ -1,3 +1,1 @@
-network.host: 0.0.0.0
-script.inline: true
-script.indexed: true
+http.host: 0.0.0.0

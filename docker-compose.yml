@@ -3,7 +3,7 @@ services:
   alpine-elasticsearch:
     build:
       context: .
-    image: augustash/alpine-elasticsearch
+    image: augustash/alpine-elasticsearch:1.1.0
     labels:
-      - "com.augustash.description=August Ash Alpine Elasticsearch Image"
+      - "com.augustash.description=August Ash Alpine Elasticsearch 2.x Image"
       - "com.augustash.development-only"

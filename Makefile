@@ -17,7 +17,7 @@ clean:
 	docker rm -f $(NAME)-$(INSTANCE)
 
 logs:
-	docker exec -it $(NAME)-$(INSTANCE) -f /var/log/nginx/access.log -f /var/log/nginx/error.log
+	docker logs -f $(NAME)-$(INSTANCE)
 
 push:
 	docker push $(IMAGE):$(TAG)

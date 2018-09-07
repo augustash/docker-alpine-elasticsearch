@@ -6,6 +6,7 @@
 
 ## Versions
 
+- `1.1.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/1.1.0/Dockerfile)
 - `1.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/1.0.0/Dockerfile)
 
 [See VERSIONS.md for image contents.](https://github.com/augustash/docker-alpine-elasticsearch/blob/master/VERSIONS.md)
@@ -34,7 +35,7 @@ The following analysis plugins are installed by default:
 
 ### User/Group Identifiers
 
-To help avoid nasty permissions errors, the container allows you to specify your own `PUID` and `PGID`. This can be a user you've created or even root (not recommended).
+To help avoid nasty permissions errors, the container allows you to specify your own `PUID` and `PGID`. This can be a user you've created or even `root` (not recommended).
 
 ### Environment Variables
 
