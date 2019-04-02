@@ -6,7 +6,8 @@
 
 ## Versions
 
-- `3.0.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/3.0.0/Dockerfile)
+- `3.1.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/3.1.0/Dockerfile)
+- `3.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/3.0.0/Dockerfile)
 - `2.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/2.0.0/Dockerfile)
 - `1.1.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/1.1.0/Dockerfile)
 - `1.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-elasticsearch/blob/1.0.0/Dockerfile)
