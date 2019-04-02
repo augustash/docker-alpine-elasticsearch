@@ -1,9 +1,9 @@
-FROM augustash/alpine-base-s6:3.0.0
+FROM augustash/alpine-base-s6:4.0.0
 
 # environment
 ENV LANG C.UTF-8
 ENV ELASTICSEARCH_VERSION 6.7.0
-ENV JAVA_ALPINE_VERSION 8.201.08-r0
+ENV JAVA_ALPINE_VERSION 8.201.08-r1
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk/jre
 ENV PATH $PATH:/usr/share/elasticsearch/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
 
