@@ -4,9 +4,17 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v1.1.0.
+Same as v2.0.0.
 
 Usage: `augustash/alpine-elasticsearch` or `augustash/alpine-elasticsearch:latest`.
+
+## v2.0.0
+
+- [augustash/alpine-base-s6](https://github.com/augustash/docker-alpine-base-s6): v2.1.0
+- [elasticsearch](https://www.elastic.co/): v5.6.16
+- [Java JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html): v8.201.08-r0
+
+Usage: `augustash/alpine-elasticsearch:2.0.0`.
 
 ## v1.1.0
 
